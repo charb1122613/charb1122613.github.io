@@ -1,0 +1,23 @@
+header {
+    font-family: $font-family-secondary;
+    font-weight: 500;
+    background-color: #222;
+    color: #ece5cf;
+    //background-color: #fff5f3;
+
+
+    .navbar-brand {
+        color: #ece5cf;
+
+        #logo-82 {
+            
+            path {
+                fill-rule:evenodd;
+            clip-rule:evenodd;
+            fill: $navbar-primary;
+            stroke: $navbar-primary;
+            }
+            
+        }
+    }
+}
