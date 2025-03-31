@@ -3,8 +3,6 @@ header {
     font-weight: 500;
     background-color: #222;
     color: #ece5cf;
-    //background-color: #fff5f3;
-
 
     .navbar-brand {
         color: #ece5cf;
@@ -13,9 +11,9 @@ header {
             
             path {
                 fill-rule:evenodd;
-            clip-rule:evenodd;
-            fill: $navbar-primary;
-            stroke: $navbar-primary;
+                clip-rule:evenodd;
+                fill: $navbar-primary;
+                stroke: $navbar-primary;
             }
             
         }

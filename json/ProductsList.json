@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "umyt-clrdn",
+        "price": 1500,
+        "description": "Voir la musique. Sentir les couleurs sur sa peau.",
+        "details": "<p>L'enveloppe sensorielle Clrdn offre une expérience si unique que vous croirez avoir acquis vingt nouveaux sens!</p><p>En créant une interface entre le monde extérieur et la conscience de l’usager, Clrdn peut transmettre les stimuli à n’importe quel des cinq sens. Ainsi, les couleurs pourront évoquer une odeur, un son, un goût ou une sensation tactile. Une symphonie pourra instantanément vous transporter dans un paysage vibrant et complétement immersif.</p><p>Vivez le monde comme les Carmiens avec Umyt-Clrdn!</p>",
+        "img": "img/maxim-berg-umyt-clrdn-600x400.jpg",
+        "full": "img/maxim-berg-umyt-clrdn-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "brjt",
+        "price": 400,
+        "description": "Créez votre propre havre de paix",
+        "details": "<p>Brjt est une entité semi-consciente créée grâce aux capacités uniques du Carmium. Contenant 300ppm de cet élément mystérieux introduit par les Carmiens, Brjt flotte paisiblement dans les maisons en répandant des effluves imperceptibles mais apaisantes.</p><p>L’une des premières créations de Carmina, Brjt est maintenant une partie intégrale de plusieurs centaines de milliers de foyer à travers le monde. L’effet de Brjt a été comparé à la sensation réconfortante d’une couverture chaude, de la première tasse de café par un matin ensoleillé, du son d’un ruisseau dans une forêt paisible.</p><p>Depuis 2025, l’Association des psychologues du Québec expérimente avec l’ajout de Brjt dans les cabinets de consultation. Les premiers résultats indiquent des bénéfices importants pour le traitement de l’anxiété et la thérapie familiale.</p>",
+        "img": "img/maxim-berg-brjt-600x400.jpg",
+        "full": "img/maxim-berg-brjt-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "name": "trclyrdon",
+        "price": 750,
+        "description": "Une vitrine sur l'âme humaine.",
+        "details": "<p>Agissant comme un écran pour la pensée, Trclyrdon est un outil essentiel qui facilite l’interaction avec les autres produits offerts par Carmina. Son prisme peut refléter de façon impressionnante les processus abstraits de la pensée et ainsi offrir des avantages significatifs pour tout exercice cognitif.</p><p>Certains sujets de réflexion peuvent être difficile à saisir par l’esprit humain. Trclyrdon arrive à traduire ces concepts en images significatives pour l’usager en tenant compte de ses expériences, ses connaissances, sa personnalité et bien plus. Ainsi, chaque relation entre un individu et Trclyrdon est tout à fait unique.</p><p>L’écran cognitif peut également interagir avec la plupart des produits de Carmina et servir d'intermédiaire pour l’usager.<br>Nous vous invitons à venir en faire l’essai dans l’un de nos magasins!</p>",
+        "img": "img/maxim-berg-trclyrdon-600x400.jpg",
+        "full": "img/maxim-berg-trclyrdon-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "name": "brclypjt",
+        "price": 1250,
+        "description": "Un écran personel tout à fait vôtre.",
+        "details": "<p>Brclypjt est la version portable notre écran cognitif Trclyrdon. Cet écran plus compact a aussi la particularité de se lier à son usager de sorte à offrir une expérience privée plus individualisée.</p><p>Quoique plus petit que Trclyrdon, Brclypjt contient une plus forte concentration de Carmium. Par conséquent, il est en quelque sorte aussi un peu plus capable d’activité cognitive. Il n’est donc pas rare pour nos usagers de lui attribuer sa propre personnalité indépendante.</p><p>Comme beaucoup de nos produits, Brclypjt se voit souvent affublé d’un nom par son propriétaire. Quel nom donnerez-vous au vôtre?</p>",
+        "img": "img/maxim-berg-brclypjt-600x400.jpg",
+        "full": "img/maxim-berg-brclypjt-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "name": "clspr",
+        "price": 500,
+        "description": "Le summum des enceintes connectées intelligentes.",
+        "details": "<p>Clspr est le mariage parfait entre la conscience humaine et la technologie. Créé à partir d’un mélange de minéraux ferromagnétiques, de calcaire carmien et de Carmium, Clspr peut émettre des ondes électromagnétiques et interagir avec une multitude d’objets électroniques.</p><p>Dites au revoir aux câbles entremêlés et aux connexions Wifi vacillantes! Tant que Clspr est alimenté par sa base magnétique, il peut communiquer sans interruption et avec une parfaite fiabilité avec tous vos appareils. Les possibilités offertes par Clspr dépassent largement celles des enceintes connectées conventionnelles. Contrôler la température du four, tamiser l’éclairage, composer puis envoyer des messages depuis votre ordinateur, et tout cela rien que par une pensée de votre part!</p><p>** La forte concentration de Carmium contenue dans Clspr peut mener à des événements surprenants. Toutefois, nous vous assurons que Clspr n’est pas réellement doté d’une conscience comme un être humain. Aucune interaction avec un produit dérivé du Carmium n’a jamais suggéré des idées troublantes ou dangereuses, mais même lors de rapports agréables avec Clspr, il est important de noter qu’il ne s’agit tout au plus que d’un reflet de vos propres pensées.</p>",
+        "img": "img/maxim-berg-clspr-600x400.jpg",
+        "full": "img/maxim-berg-clspr-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "name": "vtye-crpjt",
+        "price": 775,
+        "description": "Explorez le nouvel horizon de la raison.",
+        "details": "<p>L'extension cérébrale Vtye-Crpjt permet au genre humain d'ouvrir la porte sur de nouveaux raisonnements. Ce qui nous apparaissait comme des règles inébranlables de la logique sont aplaties par les possibilités de Vtye-Crpjt!</p><p>Si Socrate est musicien, et tous les musiciens sont des êtres humains, alors Socrate est un être humain. Ce genre de propositions logiques ont formés la base de la réflexion humaine pendant des millénaires. Toutefois, quel genre de conclusions pourrions-nous obtenir en contournant un peu les règles du jeu? En faisant appel à la conscience des Carmiens, il est maintenant possible de tenter de telles expériences.</p><p>D’abord commanditée par l’institut de philosophie de l’université de Munich, Vtye-Crpjt a rapidement été adoptée par les mathématiciens. Leurs percées retentissantes se sont ensuite répercutées dans le reste du monde scientifique. De nombreux domaines de recherche emploient maintenant Vtye-Crpjt. Depuis quelques années, son impact se fait aussi ressentir dans un nombre grandissant de créations artistiques.</p>",
+        "img": "img/maxim-berg-vtye-crpjt-600x400.jpg",
+        "full": "img/maxim-berg-vtye-crpjt-unsplash.jpg"
+    },
+    {
+        "id": 7,
+        "name": "duon",
+        "price": 150,
+        "description": "Une décoration à votre image.",
+        "details": "<p>Duon tient une place unique parmi les offres de Carmina. Alors que la plupart de nos produits visent des applications pratiques, Duon a été conçu purement pour le plaisir contemplatif.</p><p>Le sable fin de Duon est réceptif aux activités conscientes environnantes. Sa forme et sa couleur change selon l’humeur des gens et leurs pensées. Quand Duon intercepte les émanations d’un Carmien, le spectacle qu’il offre est à couper le souffle.</p><p>Exposer Duon dans une pièce, c’est mettre en valeur le cœur de son foyer.</p>",
+        "img": "img/maxim-berg-duon-600x400.jpg",
+        "full": "img/maxim-berg-duon-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "name": "plty",
+        "price": 60,
+        "description": "L'ingrédient secret le plus connu du monde.",
+        "details": "<p>Qu’arrive-t-il lorsqu’un être humain ingère du Carmium? Avec toutes ses recherches sur l’élément étranger, c’est une question que les ingénieurs de Carmina se devaient de résoudre. Le résultat : le Plty. Un petit aliment qui a toutes les apparences d’un banal jujube, mais qui possède des propriétés hors du commun!</p><p>Les Plty sont vendus en sachets de poudre puisque c’est au moment de leur confection que la magie s’opère. Le processus de préparation est tout simple. Il suffit de combiner la poudre avec de l’eau chaude, de verser le mélange dans des moules, puis de laisser Plty solidifier au congélateur. L’étape cruciale est de mélanger la poudre et l’eau avec les mains. Au moment de la consommation, ceux qui sont entrés en contact avec la solution liquide pourront établir un lien direct entre leurs consciences.</p><p>Les effets de Plty durent de 2 à 3 heures et n’altèrent aucunement le jugement. Vous demeurez maître de ce que vous désirez partager, bien que l’influence apaisante du Carmium facilite grandement des échanges riches et positives.</p><p>Profitez d’une expérience inoubliable avec vos proches dans un cœur à cœur débarrassé d’intermédiaires superflus.</p>",
+        "img": "img/maxim-berg-plty-600x400.jpg",
+        "full": "img/maxim-berg-plty-unsplash.jpg"
+    },
+    {
+        "id": 9,
+        "name": "gwmytpj",
+        "price": 8500,
+        "description": "Recevez un invité d’honneur.",
+        "details": "<p>Gwmytpj est le plus grand accomplissement de Carmina. Quand, en 2001, le monde a pris conscience de la présence des Carmiens avec la découverte du Carmium, nous n’avions encore aucun moyen d’établir une communication ou même de les percevoir concrètement. Après quinze années de recherches, l’institut Hesed, le groupe parent de Carmina, a produit le GUF-03, capable d’abrité des Carmiens et d’offrir une communication bidirectionnelle avec eux.</p><p>Aujourd’hui, la technologie employée pour créer les G.U.F.s a été grandement perfectionnée, et Carmina est fier de pouvoir offrir Gwmytpj au monde entier.</p><p>*Présentement uniquement disponible au Canada.</p><p>**À l’extérieur du Canada, certaines juridictions permettent l’installation de Gwmytpj par des particuliers sous octrois gouvernemental. Vérifier auprès de votre gouvernement si un permis est disponible pour l’achat de Gwmytpj dans votre région.</p>",
+        "img": "img/maxim-berg-gwmytpj-600x400.jpg",
+        "full": "img/maxim-berg-gwmytpj-unsplash.jpg"
+    }
+]
