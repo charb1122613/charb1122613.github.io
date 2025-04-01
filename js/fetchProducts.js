@@ -8,7 +8,7 @@ const clearButton = document.querySelector("#cart-clear");
 let cartStorage = JSON.parse(localStorage.getItem("cartStorage")) || [];
 
 
-fetch("ProductsList.json")
+fetch("json/ProductsList.json")
     .then(response => response.json()) // Convertit la réponse en JSON
     .then(products => {
         products.forEach(p => {
@@ -33,7 +33,7 @@ fetch("ProductsList.json")
                                     data-details="${p.details}"
                                     data-full="${p.full}"
                                     class="btn btn-primary show-details">
-                                        Details
+                                        Détails
                                 </button>
                             </div>
                             <div class="col-auto ms-auto">
@@ -46,7 +46,7 @@ fetch("ProductsList.json")
                                     data-details="${p.details}"
                                     data-full="${p.full}"
                                     class="btn btn-primary add-to-cart">
-                                        Add to cart
+                                        Ajouter au panier
                                 </button>
                             </div>
                         </div>
@@ -57,15 +57,16 @@ fetch("ProductsList.json")
 
         document.querySelectorAll(".show-details").forEach(button => {
             button.addEventListener("click", (e) => {
+                const id = e.target.getAttribute("data-id");
                 const name = e.target.getAttribute("data-name");
                 const price = e.target.getAttribute("data-price");
                 const details = e.target.getAttribute("data-details");
                 const full = e.target.getAttribute("data-full");
 
-                showDetails(name, price, details, full);
+                showDetails(id, name, price, details, full);
             });
         });
-
+        
         document.querySelectorAll(".add-to-cart").forEach(button => {
             button.addEventListener("click", (e) => {
                 const id = e.target.getAttribute("data-id");
@@ -81,7 +82,7 @@ fetch("ProductsList.json")
         
     .catch(error => console.error("Erreur :", error)); // Gère les erreurs
 
-function showDetails(name, price, details, full)
+function showDetails(id, name, price, details, full)
 {
     let modalTitle = document.querySelector("#product-details .modal-title");
     modalTitle.textContent = name;
@@ -89,15 +90,29 @@ function showDetails(name, price, details, full)
     let modalBody = document.querySelector("#product-details .modal-body");
     modalBody.innerHTML =
         `<div class="row">
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <img src="${full}" class="img-fluid mb-3" alt="${name}">
             </div>
-            <div class="col">
-                <p class="text-center">Prix : ${price}$</p>
-                <p class="text-center">Description : ${details}</p>
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-between">
+                <div class="m-3">
+                    ${details}
+                </div>
+                <p class="text-end me-3 fs-4">Prix : ${price}$</p>
             </div>
         </div>`;
 
+    let modalFooter = document.querySelector("#product-details .modal-footer");
+
+    modalFooter.innerHTML =
+        `<button type="button" class="btn btn-primary add-to-cart">Ajouter au panier</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>`
+
+    document.querySelectorAll("#product-details .add-to-cart").forEach(button => {
+        button.addEventListener("click", () => {
+            addToCart(id, name, price);
+        });
+    });
+    
     let myModal = new bootstrap.Modal(document.querySelector("#product-details"));
     myModal.show();
 }
@@ -133,7 +148,7 @@ function updateCart()
         listItem.classList.add("list-group-item", "d-flex", "justify-content-between", "align-items-center");
 
         listItem.innerHTML = `${item.name} x ${item.quantity} = ${(item.price * item.quantity).toFixed(2)}
-            <button class="btn btn-danger remove-item" data-id="${item.id}">X</button>`;
+            <button class="btn btn-primary remove-item" data-id="${item.id}"><i class="bi bi-x"></i></button>`;
 
         cartContainer.appendChild(listItem);
     })
@@ -204,5 +219,3 @@ function saveCart()
 }
 
 //.then(data => console.log(data)) // Affiche les données reçues
-//<a href="#" class="btn btn-primary btn-details">Details</a>
-//<a href="#" class="btn btn-primary">Add to cart</a>

@@ -1,13 +1,12 @@
 #products-section {
-    //background-color: #fba8d4;
-    //background: linear-gradient(180deg, #463470 0, #fba8d4 0.5, #f8dcde 1);
-    //background: linear-gradient(180deg, #463470 0, #fba8d4 1);
-    //background: linear-gradient(180deg, #222 0, #463470 1);
-    background: linear-gradient(180deg, #222 0, #291d42 1);
+    background-image: url(../img/maxim-berg-background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .card {
-        border: $primary 2px solid;
-        //box-shadow: 0 0 10px $primary;
+        border: darken($primary, 30%) 2px solid;
+        
         img {
             filter: grayscale(70%);
             transition: filter 200ms ease-in-out;
