@@ -143,7 +143,7 @@ function updateCart()
 
     document.querySelectorAll(".remove-item").forEach(button => {
         button.addEventListener("click", (e) => {
-            const id = e.target.getAttribute("data-id");
+            e.target.closest("button").getAttribute("data-id");
 
             removeFromCart(id);
         })
